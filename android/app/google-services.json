@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "479298090231",
+    "firebase_url": "https://ride-hailing-app-64ad6-default-rtdb.firebaseio.com",
+    "project_id": "ride-hailing-app-64ad6",
+    "storage_bucket": "ride-hailing-app-64ad6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479298090231:android:63eabbe0761c4c184ccff2",
+        "android_client_info": {
+          "package_name": "com.daniel.paradrivers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIBVjTHM8Ubpolm31Ry6cB0ZyGdc5GFaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479298090231:android:1a959b24f92154fb4ccff2",
+        "android_client_info": {
+          "package_name": "com.daniel.parauser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIBVjTHM8Ubpolm31Ry6cB0ZyGdc5GFaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

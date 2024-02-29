@@ -1,0 +1,25 @@
+import 'dart:async';
+import 'dart:ui';
+import 'package:assets_audio_player/assets_audio_player.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
+import 'package:para_drivers/models/driver_data.dart';
+import 'package:para_drivers/models/user_model.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+
+
+final FirebaseAuth fAuth = FirebaseAuth.instance;
+User? currentFirebaseUser;
+UserModel? userModelCurrentInfo;
+SharedPreferences? sharedPreferences;
+StreamSubscription<Position>? streamSubscriptionPosition;
+StreamSubscription<Position>? streamSubscriptionDriverLivePosition;
+AssetsAudioPlayer audioPlayer = AssetsAudioPlayer();
+Position? driverCurrentPosition;
+DriverData onlineDriverData = DriverData();
+String titleStarsRatings = "Good";
+bool isDriverActive = false;
+String statusText = "Now Offline";
+Color buttonColor = Colors.grey;
